@@ -49,8 +49,8 @@ namespace StudentskaSlužba
             m.DodajOpciju("Pregled svih studenata.", IspisStudenata);
             m.DodajOpciju("Pregled svhi ispitnih rokova.", IspisIspitnihRokova);
             m.DodajOpciju("Pregled svih ispitnih prijava.", IspisIspitnihPrijava);
-            m.DodajOpciju("Pregled svih entiteta 'Predaje'.", IspisIspitnihPrijava);
-            m.DodajOpciju("Pregled svih entiteta 'Pohađa'.", IspisIspitnihPrijava);
+            m.DodajOpciju("Pregled svih entiteta 'Predaje'.", IspisPredaje);
+            m.DodajOpciju("Pregled svih entiteta 'Pohađa'.", IspisPohadja);
 
             m.PokreniMeni();
         }
